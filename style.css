@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F9FAFE;
+}
+
+
+.boderBackgroundCircle {
+    background-color: white;
+    border: 1px solid black;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: gray 4px 5px;
+}
+
+.above {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.notification {
+    font-size: 23px;
+    color: black;
+}
+#showNumber {
+    background-color: rgb(10,49,123);
+    color: white;
+    font-size: 25px;
+    width: 23px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-top: 15px;
+}
+
+#aRead {
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(99,103,120);
+    margin-left: 800px;
+    font-size: 20px;
+}
+
+#aRead:hover {
+    color: blue;
+}
+
+#first {
+    margin-left: 50px;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(229,239,249);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+#second {
+    margin-left: 50px;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(229,239,249);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+#third {
+    margin-left: 50px;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(229,239,249);
+    cursor: pointer;
+}
+
+
+
+.forth {
+    margin-left: 50px;
+}
+
+
+
+.fifth {
+    margin-left: 50px;
+}
+
+
+
+
+.sixth {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+
+
+
+.seventh {
+    margin-left: 50px;
+}
+
+#dot-show {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: red;
+    display: inline-block;
+    
+}
+
+#dot-show-second {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+#dot-show-third {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+
+.nameCommentDot {
+    margin-left: 115px;
+    margin-top: -65px;
+    margin-bottom: 40px;
+}
+
+.name {
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+}
+
+.middle-comment {
+    font-size: 21px;
+    font-weight: 600px;
+    color: rgb(99,103,120);
+
+}
+
+.last-comment {
+
+    font-size: 24px;
+    font-weight: 800px;
+    color: rgb(44, 49, 65);
+
+}
+
+.time-message {
+    color: rgb(99,103,120);
+    font-size: 22px;
+}
+
+.comment {
+    border: 1px solid gray;
+    width: 880px;
+    text-align: center;
+    margin-left: 125px;
+    border-radius: 10px;
+    margin-top: -35px;
+}
+
+.commnetText {
+    color: rgb(99,103,120);
+    font-size: 25px;
+}
+
+.name:hover {
+    color: blue;
+    cursor: pointer;
+}
+.last-comment:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.comment:hover {
+    background-color: rgb(229,239,249);
+    cursor: pointer;
+}
+
+.rightImage {
+    margin-left: 800px;
+    position: relative;
+    opacity: 1;
+}
+
+.rightImage:hover {
+    opacity: 0.8;
+    color: gray;
+    cursor: pointer;
+}
+
+.time-message-smith {
+    color: rgb(99,103,120);
+    font-size: 22px;
+    position: absolute;
+}
+
+.mainImage {
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+
+    .boderBackgroundCircle {
+        width: 70%;
+        margin: auto;
+
+    }
+
+    #aRead {
+        margin-left: 300px;
+    }
+
+    .comment {
+        width: 450px;
+        margin-left: 10px;
+
+    }
+    .rightImage {
+        margin-left: 190px;
+    }
+}
+
+@media (max-width: 700px) {
+    .boderBackgroundCircle {
+    width: 87%;
+    margin: auto;
+
+    }
+    #aRead {
+        margin-left: 10px;
+    }
+
+    .comment {
+        width: 350px;
+        margin-left: 10px;
+
+    }
+    .rightImage {
+        margin-left: 130px;
+    }
+
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Notification</title>
+</head>
+<body>
+
+
+
+  <div class="boderBackgroundCircle">
+    <div class="above">
+    <h1 class="notification">Notifications</h1>
+    <p id="showNumber" onclick="minus()"></p>
+    <a href="#" id="aRead" onclick="removeAll()">Mark all as read</a>
+  </div>
+
+
+
+    <div id="first" onclick="removeFirst()">
+      <img class="mainImage" src="E:\projects\notifications-page-main\assets\images\avatar-mark-webber.webp" alt="first-img">
+      <div class="nameCommentDot">
+      <span class="name">Mark Webber</span><span class="middle-comment"> reacted to your recent post</span><span class="last-comment"> My first tournoment today!</span>
+      
+      <div id="dot-show"></div> <br>
+      <span class="time-message">1m ago</span>
+    </div>
+      
+    </div>
+
+
+
+
+    <div id="second" onclick="removeSecond()">
+      <img class="mainImage" src="E:\projects\notifications-page-main\assets\images\avatar-angela-gray.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Angela Gray</span><span class="middle-comment"> followed you</span><span class="last-comment"></span>
+      <div id="dot-show-second"></div> <br>
+      <span class="time-message">5m ago</span>
+      </div>
+    </div>
+
+
+
+    <div id="third" onclick="removeThird()">
+      <img class="mainImage" src="file:///E:/projects/notifications-page-main/assets/images/avatar-jacob-thompson.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Jacob Thompson </span><span class="middle-comment"> has joined your group </span><span class="last-comment">Chess Club</span>
+      <div id="dot-show-third"></div> <br>
+      <span class="time-message">1 day ago</span>
+      </div>
+    </div>
+
+
+
+
+    <div class="forth">
+      <img class="mainImage" src="file:///E:/projects/notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Rizky Hasanuddin</span><span class="middle-comment"> sent you a private message</span><span class="last-comment"> </span>
+      <span class="time-message">5 days ago</span>
+      </div>
+      <div class="comment">
+        <p class="commnetText">Hello, thanks for setting up the Chess Club. 
+          I've been a member for a few weeks now <br> and I'm already having lots 
+          of fun and improving my game.</p>
+
+      </div>
+    </div>
+
+
+
+    <div class="fifth">
+      <img class="mainImage" src="file:///E:/projects/notifications-page-main/assets/images/avatar-kimberly-smith.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Kimberly Smith</span><span class="middle-comment"> commented on your picture  </span><span class="last-comment"></span>
+      <span class="time-message-smith">1 week ago</span>
+      <img class="rightImage" src="file:///E:/projects/notifications-page-main/assets/images/image-chess.webp" alt="">  
+
+      </div>
+      
+    </div>
+
+
+
+
+    <div class="sixth">
+      <img class="mainImage" src="file:///E:/projects/notifications-page-main/assets/images/avatar-nathan-peterson.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Nathan Peterson</span><span class="middle-comment"> reacted to your recent post</span><span class="last-comment">
+        5 end
+        -game strateg
+        ies to increase your win rate
+      </span>
+      <span class="time-message">2 weeks ago</span>
+      </div>
+    </div>
+
+
+
+    <div class="seventh">
+      <img class="mainImage" src="file:///E:/projects/notifications-page-main/assets/images/avatar-anna-kim.webp" alt="sec-img">
+      <div class="nameCommentDot">
+      <span class="name">Anna Kim</span><span class="middle-comment"> left the group</span><span class="last-comment">
+        Chess Club
+      </span>
+      <span class="time-message">2 weeks ago</span>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
